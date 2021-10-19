@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    background-color:#fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+h1, h3 {
+    text-align: center;
+    margin: 1px;
+    padding: 1px;
+}
+
+svg {
+    background-color: #fff;
+    padding: 1px 10px 10px 10px;
+
+}
+
+.cell {
+    padding: 0;
+    margin: 0;
+    border: none;
+
+}
+
+.cell:hover {
+    fill: #000;
+}
+
+#tooltip {
+    position: absolute;
+    text-align: center;
+    width: 160px;
+    min-height: 60px;
+    padding: 3px;
+    margin-top: -20px;
+    font: 15px sans-serif;
+    background: lightsteelblue;
+    border: 1px solid #000;
+    border-radius: 5px;
+    pointer-events: none;
+    z-index: 1;
+}
+
